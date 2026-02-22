@@ -18,6 +18,8 @@ The provided script was used during my internship to provide a quick way to digi
 
 For this assignement we were tasked with writing the software for solving and visualizing a 2D flow field given specific initial and boundary conditions. This was a project mainly focused on scientific computing, which gave me an insight on the importance of understanding numerical methods and how they tie with the algorithm's speed (and by extension, your software's speed).
 
+The implementation is divided in to two distinct parts. The strictly numerical part solves the equations on an $n\times n$ grid and then propagates the solution through time. The graphics part, plots each frame of the resulting flow field and then creates a `.mp4` file of the resulting animation.
+
 
 
 
